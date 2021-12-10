@@ -39,6 +39,6 @@ public class Carro {
 
     @Override
     public String toString() {
-        return getMarca() + motorista.getNome() +getVelocidade();
+        return  "Marca- " + getMarca() +" / Nome Condutor- "+ motorista.getNome()+ " / Velocidade- " +getVelocidade();
     }
 }
